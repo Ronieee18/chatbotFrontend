@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(15, 15, 15, 0.872);
+    color: white;
+    font-family: "Roboto Slab";
+    font-size: 20px;
+}
+.image-inverted{
+    margin-top: 2px;
+    /* filter: invert(100%); */
+}
+.nav-link{
+    font-weight: 600;
+    font-size: medium;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 8px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.MuiOutlinedInput-notchedOutline,.MuiInputBase-input-root.Mui-focused{
+    border-color: white !important;
+}
+.css-12oj73a {
+    margin-top: 0px !important;
+    margin-left: 20px !important;
+}
+.aiimage{
+    filter: invert(100%);
+    background-size: cover;
+}
+.code-block-container {
+    max-width: 100%;
+    /* overflow-x: hidden; */
+  }
+.gpt{
+    animation-name: gpt;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes gpt {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+  
